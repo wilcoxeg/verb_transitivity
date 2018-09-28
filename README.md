@@ -8,18 +8,19 @@ For a recent project, I needed transitivity information for English verbs: For e
 This file contains extracted transitivity information for all verb forms that occur more than 2,000 times in the [Google Syntactic NGrams "English 1 Million" Corpus](http://commondatastorage.googleapis.com/books/syntactic-ngrams/index.html) (7965 verb forms total) Verbs are not lemmaized, thus "give" "gives" and "gave" all appear in the top-10 most common ditransitive verbs. In some cases, verbs were recorded as occurring with indirect but no direct object. I marked these cases as cross-transitive ("xtrans" in the .tsv file).
 
 There are 10 verb forms that always occur intransitively. They are:
-Verb | Percent Transitive
-targeted | 1.00
-mineralized | 1.00
-circumstanced | 1.00
-atrophied | 1.00
-dehydrated | 1.00
-truncated | 1.00
-televised | 1.00
-synchronized | 1.00
-interrelated | 1.00
-succumbed | 1.00
-is | 0.999941
+| Verb | Percent Transitive |
+| -------- | ------------- |
+| targeted | 1.00 |
+| mineralized | 1.00 |
+| circumstanced | 1.00 |
+| atrophied | 1.00 |
+| dehydrated | 1.00 |
+| truncated | 1.00 |
+| televised | 1.00 |
+| synchronized | 1.00 |
+| interrelated | 1.00 |
+| succumbed | 1.00 |
+| is | 0.999941 |
 
 The Top-10 Most transitive verb forms are:
 Verb | Percent Transitive
