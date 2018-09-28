@@ -5,7 +5,7 @@ This repo contains data on verb transitivity in English and script to extract tr
 For a recent project, I needed transitivity information for English verbs: For each verb what percentage of the time was it intransitive, transitive and ditransitive? After much unfruitful online searching I generated the data myself, using the Google Syntactic NGram corpus. The data and extraction script are available in this repo. 
 
 ### verb_transitivity.tsv
-This file contains extracted transitivity information for all verbs that occur more than 2,000 times in the [Google Syntactic NGrams "English 1 Million" Corpus](http://commondatastorage.googleapis.com/books/syntactic-ngrams/index.html). Verbs are not lemmaized, thus "give" "gives" and "gave" all appear in the top-10 most common ditransitive verbs. In some cases, verbs were recorded as occurring with indirect but no direct object. I marked these cases as cross-transitive ("xtrans" in the .tsv file).
+This file contains extracted transitivity information for all verb forms that occur more than 2,000 times in the [Google Syntactic NGrams "English 1 Million" Corpus](http://commondatastorage.googleapis.com/books/syntactic-ngrams/index.html) (7965 verb forms total) Verbs are not lemmaized, thus "give" "gives" and "gave" all appear in the top-10 most common ditransitive verbs. In some cases, verbs were recorded as occurring with indirect but no direct object. I marked these cases as cross-transitive ("xtrans" in the .tsv file).
 
 There are 10 verb forms that always occur intransitively. They are:
 Verb | Percent Transitive
